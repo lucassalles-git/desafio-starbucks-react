@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Cabecalho = styled.header`
-padding: 52px 99px 0 99px;
+padding: 27px 99px 27px 99px;
 height: 8.5rem;
 
 display: flex;
