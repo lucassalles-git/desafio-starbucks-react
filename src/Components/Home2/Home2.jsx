@@ -1,7 +1,7 @@
 import { Main } from "./style"
 import Card from "../Card/Card"
 
-export default function Home() {
+export default function Home2() {
     return (
 
         <Main>
@@ -20,7 +20,7 @@ export default function Home() {
 
             </section>
                 <section className="section-four">
-                    <img src="/src/assets/image/laranja2x 1.png" alt="" />
+                    <img src="/src/assets/image/vermelho2x 1.png" alt="" />
                 </section>
         </Main>
     )
