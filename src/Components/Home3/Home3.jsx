@@ -1,6 +1,6 @@
 import { Main } from "./style"
 import Card from "../Card/Card"
-import copoAmarelo from "../../assets/image/Amarelo2x.png"
+import copoAmarelo from "../../assets/image/amarelo2x.png"
 
 export default function Home3() {
     return (
