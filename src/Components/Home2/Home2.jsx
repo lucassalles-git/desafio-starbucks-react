@@ -20,7 +20,7 @@ export default function Home2() {
                 <Card/>
 
             </section>
-                <section className="section-four">
+                <section className="section-two">
                     <img src={copoVermelho} alt="Copo com bebida vermelha" />
                 </section>
         </Main>

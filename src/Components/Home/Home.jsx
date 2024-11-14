@@ -20,8 +20,8 @@ export default function Home() {
                 <Card/>
 
             </section>
-                <section className="section-four">
-                    <img src={copoLaranja} alt="Copo com bebida Laranja" />
+                    <section className="section-two">
+                        <img src={copoLaranja} alt="Copo com bebida Laranja" />
                 </section>
         </Main>
     )

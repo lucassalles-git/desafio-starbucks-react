@@ -57,13 +57,16 @@ button{
 
     font: 700 1.5rem "Inter", sans-serif; 
 }
-}
-}
 
-.section-four{
+button:hover{
+    background-color: #03643c;
+}
+}
+}
+.section-two{
     margin-top: 386px;
-    width: 900px;
-    border-radius: 95% 0 0 0;
+    width: 580px;
+    border-radius: 100% 0 0 0;
     background-color: #037143;
 
     position: relative;

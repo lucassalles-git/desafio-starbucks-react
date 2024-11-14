@@ -36,5 +36,9 @@ gap: 55px;
         font: 700 1.5rem "Inter", sans-serif;
         color: #FFFFFF;
     }
+
+    button:hover{
+    background-color: #03643c;
+}
 }
 `;

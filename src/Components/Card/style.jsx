@@ -8,4 +8,15 @@ export const Section = styled.section`
     display: flex;
     gap: 33px;
 
+    img{
+        position: relative;
+        z-index: 1;
+        height: 130px;
+        transition: all 0.4s;
+    }
+    img:hover{
+        transform: rotate(12deg);
+        transition: all 0.4s;
+    }
+
 `;
