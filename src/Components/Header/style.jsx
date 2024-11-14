@@ -8,6 +8,17 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 
+@media (min-width: 320px) and (max-width: 425px){
+    padding: 0;
+    height: 4rem;
+}
+
+img{
+    @media (min-width: 320px) and (max-width: 425px){
+        height: 60px;
+    }
+}
+
 nav{
     width: 30rem;
 }
@@ -23,6 +34,10 @@ ul{
 li{
     list-style: none;
     font: 400 1.5rem "Poppins", sans-serif;
+
+    @media (min-width: 320px) and (max-width: 425px){
+        font-size: 1rem;
+    }
 }
 
 a{

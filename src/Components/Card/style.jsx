@@ -8,11 +8,24 @@ export const Section = styled.section`
     display: flex;
     gap: 33px;
 
+    @media (min-width: 320px) and (max-width: 425px){
+        margin: 0;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
     img{
         position: relative;
         z-index: 1;
         height: 130px;
         transition: all 0.4s;
+
+        @media (min-width: 320px) and (max-width: 425px){
+            height: 100px;
+        }
     }
     img:hover{
         transform: rotate(12deg);
