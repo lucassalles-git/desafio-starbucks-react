@@ -9,7 +9,6 @@ justify-content: space-between;
     width: 860px;
 
     .info{
-    height: 100%;
     margin: 106px 0 0 116px;
     height: 52vh;
 
