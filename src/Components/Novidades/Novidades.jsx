@@ -1,9 +1,10 @@
 import { Main } from "./style"
+import Loja from "../../assets/image/loja.png"
 
 export default function Novidades(){
     return(
         <Main>
-            <img src="/src/assets/image/loja.png" alt="Primeira loja da StarBucks" />
+            <img src={Loja} alt="Primeira loja da StarBucks" />
             <section className="info">
                 <p className="preparacao">PREPARAÇÃO</p>
                 <h2>Níveis de torra</h2>

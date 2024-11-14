@@ -1,4 +1,5 @@
 import { Main } from "./styled"
+import Grao from "../../assets/image/grao-de-cafe.png"
 
 export default function Sobre(){
     return(
@@ -10,7 +11,7 @@ export default function Sobre(){
 
                 <button>SAIBA MAIS</button>
             </section>
-            <img src="/src/assets/image/grao-de-cafe.png" alt="" />
+            <img src={Grao} alt="Grão de Café" />
         </Main>
     )
 }

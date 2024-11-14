@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom"
 import { Cabecalho } from "./style"
+import logoStarbucks from "/src/assets/image/logo.png"
 
 export default function Header() {
     return (
         <Cabecalho>
-            <img src="/src/assets/image/logo 2.png" alt="logomarca" />
+            <img src={logoStarbucks} alt="logomarca" />
 
             <nav>
                 <ul>

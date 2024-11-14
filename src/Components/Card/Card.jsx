@@ -1,12 +1,15 @@
 import { Link } from "react-router-dom"
 import { Section } from "./style"
+import copoLaranja from "../../assets/image/laranja.png"
+import copoVermelho from "../../assets/image/vermelho.png"
+import copoAmarelo from "../../assets/image/amarelo.png"
 
 export default function Card(){
     return(
         <Section className="section-copos">
-                    <div><Link to="/"><img src="/src/assets/image/laranja.png" alt="Suco de Laranja" /></Link></div>
-                    <div><Link to="/Home2"><img src="/src/assets/image/vermelho.png" alt="Suco de Morango" /></Link></div>
-                    <div><Link to="/Home3"><img src="/src/assets/image/amarelo.png" alt="Suco de Maracuja" /></Link></div>
+                    <div><Link to="/"><img src={copoLaranja} alt="Copo Laranja" /></Link></div>
+                    <div><Link to="/Home2"><img src={copoVermelho} alt="Copo Vermelho" /></Link></div>
+                    <div><Link to="/Home3"><img src={copoAmarelo} alt="Copo Amarelo" /></Link></div>
                 </Section>
     )
 }

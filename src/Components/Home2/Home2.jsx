@@ -1,5 +1,6 @@
 import { Main } from "./style"
 import Card from "../Card/Card"
+import copoVermelho from "../../assets/image/vermelho2x.png"
 
 export default function Home2() {
     return (
@@ -20,7 +21,7 @@ export default function Home2() {
 
             </section>
                 <section className="section-four">
-                    <img src="/src/assets/image/vermelho2x 1.png" alt="" />
+                    <img src={copoVermelho} alt="Copo com bebida vermelha" />
                 </section>
         </Main>
     )
