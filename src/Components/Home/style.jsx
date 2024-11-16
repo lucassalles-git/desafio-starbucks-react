@@ -3,11 +3,12 @@ import styled from "styled-components";
 export const Main = styled.main`
 height: 100vh;
 display: flex;
-justify-content: space-between;
+gap: 30rem;
 
-@media (min-width: 320px) and (max-width: 425px){
+@media (min-width: 320px) and (max-width: 440px){
     display: flex;
     flex-direction: column;
+    gap: 1rem;
 }
 
 .section-one{
@@ -21,7 +22,7 @@ justify-content: space-between;
     flex-direction: column;
     justify-content: space-between;
 
-    @media (min-width: 320px) and (max-width: 425px){
+    @media (min-width: 320px) and (max-width: 440px){
         margin: 0 0 40px 0;
         height: 21rem;
         width: 100vw;
@@ -37,7 +38,7 @@ h2{
     font: 400 4rem "Inter", sans-serif;
     color: #000000CC;
 
-    @media (min-width: 320px) and (max-width: 425px){
+    @media (min-width: 320px) and (max-width: 440px){
         font-size: 1.5rem;
     }
 }
@@ -48,7 +49,7 @@ h2{
     display: flex;
     justify-content: space-between;
 
-    @media (min-width: 320px) and (max-width: 425px){
+    @media (min-width: 320px) and (max-width: 440px){
         height: 40px;
         width: 274px;
         display: flex;
@@ -58,7 +59,7 @@ h2{
     p{
         font: 400 4rem "Poppins", sans-serif;
 
-        @media (min-width: 320px) and (max-width: 425px){
+        @media (min-width: 320px) and (max-width: 440px){
             font-size: 2rem;
         }
     }
@@ -70,7 +71,7 @@ h2{
         font: 700 6rem "Poppins", sans-serif;
         color: #037143;
 
-        @media (min-width: 320px) and (max-width: 425px){
+        @media (min-width: 320px) and (max-width: 440px){
             font-size: 2.1rem;
         }
     }
@@ -81,7 +82,7 @@ p{
     width: 46rem;
     font: 400 1.5rem "Poppins", sans-serif;
 
-    @media (min-width: 320px) and (max-width: 425px){
+    @media (min-width: 320px) and (max-width: 440px){
         font-size: 0.9rem;
         text-align: justify;
         width: 17rem;
@@ -98,7 +99,7 @@ button{
 
     font: 700 1.5rem "Inter", sans-serif; 
 
-    @media (min-width: 320px) and (max-width: 425px){
+    @media (min-width: 320px) and (max-width: 440px){
         width: 130px;
         height: 40px;
 
@@ -119,11 +120,13 @@ button:hover{
 
     position: relative;
 
-    @media (min-width: 320px) and (max-width: 425px){
-        margin: 100px auto;
+    @media (min-width: 320px) and (max-width: 440px){
+        margin: 2rem auto;
         width: 220px;
-        height: 300px;
+        height: 12.8rem;
         border-radius: 100%;
+
+        text-align: center;
     }
 
     img{
@@ -131,12 +134,9 @@ button:hover{
         top: -80px;
         left: 50px;
 
-        @media (min-width: 320px) and (max-width: 425px){
-            position: relative;
+        @media (min-width: 320px) and (max-width: 440px){
+            position: static;
             height: 200px;
-            margin: auto;
-            top: -30%;
-            left: 6.5%;
         }
     }
 }

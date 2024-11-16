@@ -8,7 +8,7 @@ export const Section = styled.section`
     display: flex;
     gap: 33px;
 
-    @media (min-width: 320px) and (max-width: 425px){
+    @media (min-width: 320px) and (max-width: 440px){
         margin: 0;
         width: 100vw;
         display: flex;
@@ -23,7 +23,7 @@ export const Section = styled.section`
         height: 130px;
         transition: all 0.4s;
 
-        @media (min-width: 320px) and (max-width: 425px){
+        @media (min-width: 320px) and (max-width: 440px){
             height: 100px;
         }
     }

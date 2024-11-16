@@ -8,19 +8,19 @@ justify-content: space-between;
 align-items: center;
 background-color: #1E3932;
 
-@media (min-width: 320px) and (max-width: 425px){
+@media (min-width: 320px) and (max-width: 440px){
     padding: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .info{
     width: 600px;
     color: #FFFFFF;
 
-    @media (min-width: 320px) and (max-width: 425px){
+    @media (min-width: 320px) and (max-width: 440px){
         padding: 0 5px;
         height: 16rem;
         width: 100vw;
@@ -36,7 +36,7 @@ background-color: #1E3932;
     .preparacao{
         font: 700 1.5rem "Inter", sans-serif;
 
-        @media (min-width: 320px) and (max-width: 425px){
+        @media (min-width: 320px) and (max-width: 440px){
         font-size: 1.4rem;
     }
     }
@@ -44,7 +44,7 @@ background-color: #1E3932;
     h2{
         font: 400 4rem "Poppins", sans-serif;
 
-        @media (min-width: 320px) and (max-width: 425px){
+        @media (min-width: 320px) and (max-width: 440px){
         font-size: 2.1rem;
     }
     }
@@ -52,7 +52,7 @@ background-color: #1E3932;
     p{
         font: 400 1.5rem "Poppins", sans-serif;
 
-        @media (min-width: 320px) and (max-width: 425px){
+        @media (min-width: 320px) and (max-width: 440px){
         font-size: 0.9rem;
     }
     }
@@ -68,7 +68,7 @@ background-color: #1E3932;
         font: 700 1.5rem "Inter", sans-serif;
         color: #FFFFFF;
 
-        @media (min-width: 320px) and (max-width: 425px){
+        @media (min-width: 320px) and (max-width: 440px){
         margin: 0;
         width: 13rem;
         height: 3.5rem;
@@ -82,9 +82,9 @@ background-color: #1E3932;
 }
 
 img{
-    @media (min-width: 320px) and (max-width: 425px){
-        width: 150px;
-        height: 150px;
+    @media (min-width: 320px) and (max-width: 440px){
+        width: 300px;
+        height: 250px;
     }
 }
 `;
